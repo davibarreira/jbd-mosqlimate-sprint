@@ -20,4 +20,6 @@ dependencies = [
     "seaborn>=0.13.2",
     "missingno>=0.5.2",
     "lets-plot>=4.6.2",
+    "inequality>=1.1.2",
+    "concentrationmetrics>=0.6.0",
 ]
