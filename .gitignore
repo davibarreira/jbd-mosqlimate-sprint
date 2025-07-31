@@ -163,6 +163,7 @@ cython_debug/
 Demo Notebooks/dengue.csv.gz
 notebooks/AutogluonModels/
 train_model/AutogluonModels/
+train_model/SprintModels/
 data/dataset_complete_dengue_municipality.parquet
 notebooks/aws_forecasting_chronos.ipynb
 
