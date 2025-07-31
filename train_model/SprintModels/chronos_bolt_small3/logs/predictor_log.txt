@@ -1,0 +1,950 @@
+Beginning AutoGluon training...
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small3'
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.09 GB / 16.00 GB (25.5%)
+Disk Space Avail:   378.90 GB / 926.35 GB (40.9%)
+===================================================
+
+Fitting with arguments:
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+Inferred time series frequency: 'W-SUN'
+Provided train_data has 19630 rows, 26 time series. Median time series length is 755 (min=755, max=755). 
+
+Provided data contains following columns:
+	target: 'target'
+	past_covariates:
+		categorical:        []
+		continuous (float): ['enso', 'log_casos']
+	static_features:
+		categorical:        []
+		continuous (float): ['uf_latitude', 'uf_longitude']
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+
+Starting training. Start time is 2025-07-31 03:13:18
+Models that will be trained: ['Chronos[bolt_small]']
+Training timeseries model Chronos[bolt_small]. 
+	-0.7556       = Validation score (-WQL)
+	0.01    s     = Training runtime
+	2.25    s     = Validation (prediction) runtime
+Training complete. Models trained: ['Chronos[bolt_small]']
+Total runtime: 2.27 s
+Best model: Chronos[bolt_small]
+Best model score: -0.7556
+Warning: path already exists! This predictor may overwrite an existing predictor! path="./SprintModels/chronos_bolt_small3"
+Beginning AutoGluon training...
+Beginning AutoGluon training...
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small3'
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small3'
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.07 GB / 16.00 GB (25.4%)
+Disk Space Avail:   378.74 GB / 926.35 GB (40.9%)
+===================================================
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.07 GB / 16.00 GB (25.4%)
+Disk Space Avail:   378.74 GB / 926.35 GB (40.9%)
+===================================================
+
+Fitting with arguments:
+
+Fitting with arguments:
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+Inferred time series frequency: 'W-SUN'
+Inferred time series frequency: 'W-SUN'
+Provided train_data has 19630 rows, 26 time series. Median time series length is 755 (min=755, max=755). 
+Provided train_data has 19630 rows, 26 time series. Median time series length is 755 (min=755, max=755). 
+
+Provided data contains following columns:
+
+Provided data contains following columns:
+	target: 'target'
+	target: 'target'
+	past_covariates:
+	past_covariates:
+		categorical:        []
+		categorical:        []
+		continuous (float): ['enso', 'log_casos']
+		continuous (float): ['enso', 'log_casos']
+	static_features:
+	static_features:
+		categorical:        []
+		categorical:        []
+		continuous (float): ['uf_latitude', 'uf_longitude']
+		continuous (float): ['uf_latitude', 'uf_longitude']
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+===================================================
+
+Starting training. Start time is 2025-07-31 03:13:22
+
+Starting training. Start time is 2025-07-31 03:13:22
+Models that will be trained: ['Chronos[bolt_small]']
+Models that will be trained: ['Chronos[bolt_small]']
+Training timeseries model Chronos[bolt_small]. 
+Training timeseries model Chronos[bolt_small]. 
+	-0.7556       = Validation score (-WQL)
+	-0.7556       = Validation score (-WQL)
+	0.01    s     = Training runtime
+	0.01    s     = Training runtime
+	2.18    s     = Validation (prediction) runtime
+	2.18    s     = Validation (prediction) runtime
+Training complete. Models trained: ['Chronos[bolt_small]']
+Training complete. Models trained: ['Chronos[bolt_small]']
+Total runtime: 2.20 s
+Total runtime: 2.20 s
+Best model: Chronos[bolt_small]
+Best model: Chronos[bolt_small]
+Best model score: -0.7556
+Best model score: -0.7556
+Warning: path already exists! This predictor may overwrite an existing predictor! path="./SprintModels/chronos_bolt_small3"
+Warning: path already exists! This predictor may overwrite an existing predictor! path="./SprintModels/chronos_bolt_small3"
+Beginning AutoGluon training...
+Beginning AutoGluon training...
+Beginning AutoGluon training...
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small3'
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small3'
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small3'
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.08 GB / 16.00 GB (25.5%)
+Disk Space Avail:   378.58 GB / 926.35 GB (40.9%)
+===================================================
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.08 GB / 16.00 GB (25.5%)
+Disk Space Avail:   378.58 GB / 926.35 GB (40.9%)
+===================================================
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.08 GB / 16.00 GB (25.5%)
+Disk Space Avail:   378.58 GB / 926.35 GB (40.9%)
+===================================================
+
+Fitting with arguments:
+
+Fitting with arguments:
+
+Fitting with arguments:
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+Inferred time series frequency: 'W-SUN'
+Inferred time series frequency: 'W-SUN'
+Inferred time series frequency: 'W-SUN'
+Provided train_data has 19630 rows, 26 time series. Median time series length is 755 (min=755, max=755). 
+Provided train_data has 19630 rows, 26 time series. Median time series length is 755 (min=755, max=755). 
+Provided train_data has 19630 rows, 26 time series. Median time series length is 755 (min=755, max=755). 
+
+Provided data contains following columns:
+
+Provided data contains following columns:
+
+Provided data contains following columns:
+	target: 'target'
+	target: 'target'
+	target: 'target'
+	past_covariates:
+	past_covariates:
+	past_covariates:
+		categorical:        []
+		categorical:        []
+		categorical:        []
+		continuous (float): ['enso', 'log_casos']
+		continuous (float): ['enso', 'log_casos']
+		continuous (float): ['enso', 'log_casos']
+	static_features:
+	static_features:
+	static_features:
+		categorical:        []
+		categorical:        []
+		categorical:        []
+		continuous (float): ['uf_latitude', 'uf_longitude']
+		continuous (float): ['uf_latitude', 'uf_longitude']
+		continuous (float): ['uf_latitude', 'uf_longitude']
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+===================================================
+===================================================
+
+Starting training. Start time is 2025-07-31 03:13:27
+
+Starting training. Start time is 2025-07-31 03:13:27
+
+Starting training. Start time is 2025-07-31 03:13:27
+Models that will be trained: ['Chronos[bolt_small]']
+Models that will be trained: ['Chronos[bolt_small]']
+Models that will be trained: ['Chronos[bolt_small]']
+Training timeseries model Chronos[bolt_small]. 
+Training timeseries model Chronos[bolt_small]. 
+Training timeseries model Chronos[bolt_small]. 
+	-0.7556       = Validation score (-WQL)
+	-0.7556       = Validation score (-WQL)
+	-0.7556       = Validation score (-WQL)
+	0.01    s     = Training runtime
+	0.01    s     = Training runtime
+	0.01    s     = Training runtime
+	1.87    s     = Validation (prediction) runtime
+	1.87    s     = Validation (prediction) runtime
+	1.87    s     = Validation (prediction) runtime
+Training complete. Models trained: ['Chronos[bolt_small]']
+Training complete. Models trained: ['Chronos[bolt_small]']
+Training complete. Models trained: ['Chronos[bolt_small]']
+Total runtime: 1.88 s
+Total runtime: 1.88 s
+Total runtime: 1.88 s
+Best model: Chronos[bolt_small]
+Best model: Chronos[bolt_small]
+Best model: Chronos[bolt_small]
+Best model score: -0.7556
+Best model score: -0.7556
+Best model score: -0.7556
+Beginning AutoGluon training...
+Beginning AutoGluon training...
+Beginning AutoGluon training...
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small1'
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small1'
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small1'
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.21 GB / 16.00 GB (26.3%)
+Disk Space Avail:   379.38 GB / 926.35 GB (41.0%)
+===================================================
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.21 GB / 16.00 GB (26.3%)
+Disk Space Avail:   379.38 GB / 926.35 GB (41.0%)
+===================================================
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.21 GB / 16.00 GB (26.3%)
+Disk Space Avail:   379.38 GB / 926.35 GB (41.0%)
+===================================================
+
+Fitting with arguments:
+
+Fitting with arguments:
+
+Fitting with arguments:
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+Inferred time series frequency: 'W-SUN'
+Inferred time series frequency: 'W-SUN'
+Inferred time series frequency: 'W-SUN'
+Provided train_data has 16926 rows, 26 time series. Median time series length is 651 (min=651, max=651). 
+Provided train_data has 16926 rows, 26 time series. Median time series length is 651 (min=651, max=651). 
+Provided train_data has 16926 rows, 26 time series. Median time series length is 651 (min=651, max=651). 
+
+Provided data contains following columns:
+
+Provided data contains following columns:
+
+Provided data contains following columns:
+	target: 'target'
+	target: 'target'
+	target: 'target'
+	past_covariates:
+	past_covariates:
+	past_covariates:
+		categorical:        []
+		categorical:        []
+		categorical:        []
+		continuous (float): ['enso', 'log_casos']
+		continuous (float): ['enso', 'log_casos']
+		continuous (float): ['enso', 'log_casos']
+	static_features:
+	static_features:
+	static_features:
+		categorical:        []
+		categorical:        []
+		categorical:        []
+		continuous (float): ['uf_latitude', 'uf_longitude']
+		continuous (float): ['uf_latitude', 'uf_longitude']
+		continuous (float): ['uf_latitude', 'uf_longitude']
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+===================================================
+===================================================
+
+Starting training. Start time is 2025-07-31 03:14:06
+
+Starting training. Start time is 2025-07-31 03:14:06
+
+Starting training. Start time is 2025-07-31 03:14:06
+Models that will be trained: ['Chronos[bolt_small]']
+Models that will be trained: ['Chronos[bolt_small]']
+Models that will be trained: ['Chronos[bolt_small]']
+Training timeseries model Chronos[bolt_small]. 
+Training timeseries model Chronos[bolt_small]. 
+Training timeseries model Chronos[bolt_small]. 
+	-0.6566       = Validation score (-WQL)
+	-0.6566       = Validation score (-WQL)
+	-0.6566       = Validation score (-WQL)
+	0.01    s     = Training runtime
+	0.01    s     = Training runtime
+	0.01    s     = Training runtime
+	2.26    s     = Validation (prediction) runtime
+	2.26    s     = Validation (prediction) runtime
+	2.26    s     = Validation (prediction) runtime
+Training complete. Models trained: ['Chronos[bolt_small]']
+Training complete. Models trained: ['Chronos[bolt_small]']
+Training complete. Models trained: ['Chronos[bolt_small]']
+Total runtime: 2.28 s
+Total runtime: 2.28 s
+Total runtime: 2.28 s
+Best model: Chronos[bolt_small]
+Best model: Chronos[bolt_small]
+Best model: Chronos[bolt_small]
+Best model score: -0.6566
+Best model score: -0.6566
+Best model score: -0.6566
+Beginning AutoGluon training...
+Beginning AutoGluon training...
+Beginning AutoGluon training...
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small2'
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small2'
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small2'
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.28 GB / 16.00 GB (26.8%)
+Disk Space Avail:   379.22 GB / 926.35 GB (40.9%)
+===================================================
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.28 GB / 16.00 GB (26.8%)
+Disk Space Avail:   379.22 GB / 926.35 GB (40.9%)
+===================================================
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.28 GB / 16.00 GB (26.8%)
+Disk Space Avail:   379.22 GB / 926.35 GB (40.9%)
+===================================================
+
+Fitting with arguments:
+
+Fitting with arguments:
+
+Fitting with arguments:
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+Inferred time series frequency: 'W-SUN'
+Inferred time series frequency: 'W-SUN'
+Inferred time series frequency: 'W-SUN'
+Provided train_data has 18278 rows, 26 time series. Median time series length is 703 (min=703, max=703). 
+Provided train_data has 18278 rows, 26 time series. Median time series length is 703 (min=703, max=703). 
+Provided train_data has 18278 rows, 26 time series. Median time series length is 703 (min=703, max=703). 
+
+Provided data contains following columns:
+
+Provided data contains following columns:
+
+Provided data contains following columns:
+	target: 'target'
+	target: 'target'
+	target: 'target'
+	past_covariates:
+	past_covariates:
+	past_covariates:
+		categorical:        []
+		categorical:        []
+		categorical:        []
+		continuous (float): ['enso', 'log_casos']
+		continuous (float): ['enso', 'log_casos']
+		continuous (float): ['enso', 'log_casos']
+	static_features:
+	static_features:
+	static_features:
+		categorical:        []
+		categorical:        []
+		categorical:        []
+		continuous (float): ['uf_latitude', 'uf_longitude']
+		continuous (float): ['uf_latitude', 'uf_longitude']
+		continuous (float): ['uf_latitude', 'uf_longitude']
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+===================================================
+===================================================
+
+Starting training. Start time is 2025-07-31 03:14:10
+
+Starting training. Start time is 2025-07-31 03:14:10
+
+Starting training. Start time is 2025-07-31 03:14:10
+Models that will be trained: ['Chronos[bolt_small]']
+Models that will be trained: ['Chronos[bolt_small]']
+Models that will be trained: ['Chronos[bolt_small]']
+Training timeseries model Chronos[bolt_small]. 
+Training timeseries model Chronos[bolt_small]. 
+Training timeseries model Chronos[bolt_small]. 
+	-0.6093       = Validation score (-WQL)
+	-0.6093       = Validation score (-WQL)
+	-0.6093       = Validation score (-WQL)
+	0.01    s     = Training runtime
+	0.01    s     = Training runtime
+	0.01    s     = Training runtime
+	1.85    s     = Validation (prediction) runtime
+	1.85    s     = Validation (prediction) runtime
+	1.85    s     = Validation (prediction) runtime
+Training complete. Models trained: ['Chronos[bolt_small]']
+Training complete. Models trained: ['Chronos[bolt_small]']
+Training complete. Models trained: ['Chronos[bolt_small]']
+Total runtime: 1.87 s
+Total runtime: 1.87 s
+Total runtime: 1.87 s
+Best model: Chronos[bolt_small]
+Best model: Chronos[bolt_small]
+Best model: Chronos[bolt_small]
+Best model score: -0.6093
+Best model score: -0.6093
+Best model score: -0.6093
+Warning: path already exists! This predictor may overwrite an existing predictor! path="./SprintModels/chronos_bolt_small3"
+Warning: path already exists! This predictor may overwrite an existing predictor! path="./SprintModels/chronos_bolt_small3"
+Warning: path already exists! This predictor may overwrite an existing predictor! path="./SprintModels/chronos_bolt_small3"
+Beginning AutoGluon training...
+Beginning AutoGluon training...
+Beginning AutoGluon training...
+Beginning AutoGluon training...
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small3'
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small3'
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small3'
+AutoGluon will save models to '/Users/davibarreira/Documents/DSProjects/Mosqlimate/jbd-mosqlimate-sprint/train_model/SprintModels/chronos_bolt_small3'
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.25 GB / 16.00 GB (26.6%)
+Disk Space Avail:   379.07 GB / 926.35 GB (40.9%)
+===================================================
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.25 GB / 16.00 GB (26.6%)
+Disk Space Avail:   379.07 GB / 926.35 GB (40.9%)
+===================================================
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.25 GB / 16.00 GB (26.6%)
+Disk Space Avail:   379.07 GB / 926.35 GB (40.9%)
+===================================================
+=================== System Info ===================
+AutoGluon Version:  1.4.0
+Python Version:     3.11.11
+Operating System:   Darwin
+Platform Machine:   arm64
+Platform Version:   Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+CPU Count:          8
+GPU Count:          1
+Memory Avail:       4.25 GB / 16.00 GB (26.6%)
+Disk Space Avail:   379.07 GB / 926.35 GB (40.9%)
+===================================================
+
+Fitting with arguments:
+
+Fitting with arguments:
+
+Fitting with arguments:
+
+Fitting with arguments:
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+{'enable_ensemble': False,
+ 'eval_metric': WQL,
+ 'hyperparameters': {'Chronos': [{'ag_args': {'name_suffix': ''},
+                                  'fine_tune': False,
+                                  'model_path': 'bolt_small'}]},
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 68,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'verbosity': 2}
+
+Inferred time series frequency: 'W-SUN'
+Inferred time series frequency: 'W-SUN'
+Inferred time series frequency: 'W-SUN'
+Inferred time series frequency: 'W-SUN'
+Provided train_data has 19630 rows, 26 time series. Median time series length is 755 (min=755, max=755). 
+Provided train_data has 19630 rows, 26 time series. Median time series length is 755 (min=755, max=755). 
+Provided train_data has 19630 rows, 26 time series. Median time series length is 755 (min=755, max=755). 
+Provided train_data has 19630 rows, 26 time series. Median time series length is 755 (min=755, max=755). 
+
+Provided data contains following columns:
+
+Provided data contains following columns:
+
+Provided data contains following columns:
+
+Provided data contains following columns:
+	target: 'target'
+	target: 'target'
+	target: 'target'
+	target: 'target'
+	past_covariates:
+	past_covariates:
+	past_covariates:
+	past_covariates:
+		categorical:        []
+		categorical:        []
+		categorical:        []
+		categorical:        []
+		continuous (float): ['enso', 'log_casos']
+		continuous (float): ['enso', 'log_casos']
+		continuous (float): ['enso', 'log_casos']
+		continuous (float): ['enso', 'log_casos']
+	static_features:
+	static_features:
+	static_features:
+	static_features:
+		categorical:        []
+		categorical:        []
+		categorical:        []
+		categorical:        []
+		continuous (float): ['uf_latitude', 'uf_longitude']
+		continuous (float): ['uf_latitude', 'uf_longitude']
+		continuous (float): ['uf_latitude', 'uf_longitude']
+		continuous (float): ['uf_latitude', 'uf_longitude']
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+To learn how to fix incorrectly inferred types, please see documentation for TimeSeriesPredictor.fit
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+
+AutoGluon will gauge predictive performance using evaluation metric: 'WQL'
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+	This metric's sign has been flipped to adhere to being higher_is_better. The metric score can be multiplied by -1 to get the metric value.
+===================================================
+===================================================
+===================================================
+===================================================
+
+Starting training. Start time is 2025-07-31 03:14:14
+
+Starting training. Start time is 2025-07-31 03:14:14
+
+Starting training. Start time is 2025-07-31 03:14:14
+
+Starting training. Start time is 2025-07-31 03:14:14
+Models that will be trained: ['Chronos[bolt_small]']
+Models that will be trained: ['Chronos[bolt_small]']
+Models that will be trained: ['Chronos[bolt_small]']
+Models that will be trained: ['Chronos[bolt_small]']
+Training timeseries model Chronos[bolt_small]. 
+Training timeseries model Chronos[bolt_small]. 
+Training timeseries model Chronos[bolt_small]. 
+Training timeseries model Chronos[bolt_small]. 
+	-0.7556       = Validation score (-WQL)
+	-0.7556       = Validation score (-WQL)
+	-0.7556       = Validation score (-WQL)
+	-0.7556       = Validation score (-WQL)
+	0.01    s     = Training runtime
+	0.01    s     = Training runtime
+	0.01    s     = Training runtime
+	0.01    s     = Training runtime
+	1.91    s     = Validation (prediction) runtime
+	1.91    s     = Validation (prediction) runtime
+	1.91    s     = Validation (prediction) runtime
+	1.91    s     = Validation (prediction) runtime
+Training complete. Models trained: ['Chronos[bolt_small]']
+Training complete. Models trained: ['Chronos[bolt_small]']
+Training complete. Models trained: ['Chronos[bolt_small]']
+Training complete. Models trained: ['Chronos[bolt_small]']
+Total runtime: 1.92 s
+Total runtime: 1.92 s
+Total runtime: 1.92 s
+Total runtime: 1.92 s
+Best model: Chronos[bolt_small]
+Best model: Chronos[bolt_small]
+Best model: Chronos[bolt_small]
+Best model: Chronos[bolt_small]
+Best model score: -0.7556
+Best model score: -0.7556
+Best model score: -0.7556
+Best model score: -0.7556
