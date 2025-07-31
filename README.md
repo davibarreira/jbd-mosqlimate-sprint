@@ -3,7 +3,7 @@
 ## Team and Contributors
 
 JBD - Mosqlimate - Sprint
-School of Applied Mathematics - Getúlio Vargas Foundation (FGV/EMAp)
+School of Applied Mathematics - Fundação Getúlio Vargas (FGV/EMAp)
 
 - Beatriz Laiate, Ph.D.
 - Davi Sales Barreira, Ph.D.
