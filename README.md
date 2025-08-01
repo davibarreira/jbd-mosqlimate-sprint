@@ -20,25 +20,24 @@ It is able to deal with structured time-series data, which differentiates it fro
 ## Repository Structure:
 
 - `data/`
-  1. `1_raw/` (.csv and .geojson files)
-  2. `2_inter/` (.parquet files)
-  3. `3_primary/` (.parquet file)
-  4. `4_model_output/` (sprint validation tests - .parquet files)
-  5. `5_predictions/` (.parquet files)
-- `dataprep/` (.ipynb files - external variables)
+  1. `1_raw/` (raw data)
+  2. `2_inter/` (intermediate data processed)
+  3. `3_primary/` (primary data to be used to train the model)
+  4. `4_model_output/` (predictions from the model without post-processing)
+  5. `5_predictions/` (predictions to be submitted to the competition)
+- `dataprep/` (notebooks to process the data)
   1. `1_enso_interpolation.ipynb`
   2. `2_geographic_uf.ipynb`
   3. `3_join_aggregate_data.ipynb`
-- `train_model/`
+- `train_model/` (notebooks to train the model)
   1. `train.ipynb`
   2. `SprintModels/` (trained models)
-- `forecast_evaluation/`
+- `forecast_evaluation/` (notebooks to evaluate the model)
   1. `evaluate.ipynb`
-- `post_processing/` (.ipynb files)
+- `post_processing/` (notebooks to post-process the predictions)
   1. `post_processing.ipynb`
-  2. `showcasepost_processing.ipynb`
-  3. `submission.ipynb`
-- `run_pipeline.py` (main pipeline script)
+  2. `submission.ipynb`
+- `run_pipeline.py` (script to run the notebooks in the correct order to reproduce the results)
 - `pyproject.toml` (project dependencies)
 - `uv.lock` (dependency lock file)
 
